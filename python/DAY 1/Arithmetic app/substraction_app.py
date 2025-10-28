@@ -7,7 +7,7 @@ for index in range(1, 10):
 	first_number = random.randint(0, 100)
 	second_number = random.randint(0, 100)
 
-print (f"Question 1 What is {10} - {5}")
+print (f"Question 1 What is {first_number} - {second_number}")
 
 for attempt in range (1, 3):
 	answer = int(input("Your answer: "))
