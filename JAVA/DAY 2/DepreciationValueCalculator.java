@@ -4,7 +4,7 @@ public class DepreciationValueCalculator {
         double rate = 0.08;
         int years = 0;
 
-        while (price > 0) {
+        while (price > 1) {
             double loss = price * rate;
             price = price - loss;
             years = years + 1;

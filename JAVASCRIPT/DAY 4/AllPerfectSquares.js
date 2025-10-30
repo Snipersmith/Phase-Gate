@@ -1,0 +1,12 @@
+function areAllPerfectSquare(numbers) {
+	
+
+
+
+
+
+
+
+
+
+}
