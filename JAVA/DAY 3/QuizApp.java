@@ -46,6 +46,8 @@ public class QuizApp {
 
 	System.out.print("Enter your answer (1-4): ");
 	int userAnswer = input.nextInt();
+	
+	
 
 	if(userAnswer == correctAnswers[index]) {
 	
@@ -53,17 +55,15 @@ public class QuizApp {
 		score++;
 
 	} else {
-		System.out.println("Wrong, Stay Sharp");
+		System.out.println("Wrong, Stay Sharp!");
 		}
 
 	}
+
 	
 
 	System.out.println("\nQuiz Completed!");
 	System.out.println("Your final score is: " + score + " out of " + questions.length);
-
-
-
 
 	}
 
