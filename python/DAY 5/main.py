@@ -1,14 +1,3 @@
-"""
-Pseudo
-- Create an empty packing space that can accommodate 20 cars
-- Make sure a car can enter this packing lot from left to right
-- Make sure a car can leave the packing lot
-- Make sure two cars can't be a one packing lot 
-- When a car leave the packing lot, Make sure the slot number is specified 
-- Display the available space status after each action
-- Display the filled space status after each action
-
-"""
 
 parking_lot = [None] * 20
 
@@ -87,5 +76,4 @@ def main():
 			print("Invalid choice! Try again.\n")
 
 
-if _name_ == "_main_":
-	main()
+main()
